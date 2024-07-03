@@ -15,6 +15,7 @@ stages:
       vmImage: 'ubuntu-latest'
     steps: 
     - script: 
+        chmod -R 777 shell.sh
        ./shell.sh
 
 
