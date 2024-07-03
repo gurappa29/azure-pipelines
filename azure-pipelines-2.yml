@@ -14,7 +14,7 @@ stages:
     pool:
       vmImage: 'ubuntu-latest'
     steps: 
-    - scripts: echo hello,World    $(DEPLOYMENT)
+    - script: echo hello,World    $(DEPLOYMENT)
 
 
 
